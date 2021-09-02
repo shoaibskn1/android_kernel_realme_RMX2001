@@ -26,7 +26,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/9
-        defconfig: rmx2001_defconfig
+        defconfig: RMX2001_defconfig
         image: Image.gz-dtb
 
     - name: "Post build to Telegram"
